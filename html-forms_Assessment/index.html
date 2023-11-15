@@ -16,17 +16,18 @@
     <main>
       <form>
         <div>
-          <label for="name">Full Name:</label>
+          <label for="name">Name:</label>
           <input id="name" type="text" name="name" required/>
         </div>
         <div>
-          <label for="location">Zipcode:</label>
+          <label for="email">Email:</label>
           <input
-            id="location"
+            id="email"
             type="text"
-            name="zipcode"
+            name="email"
             autofocus="on"
-            maxlength="5"
+            maxlength="30"
+            pattern=".+@example\.com"
             required
           />
         </div>
@@ -37,11 +38,10 @@
             name="message"
             autofocus="on"
             required
-            maxlength="200"
+            maxlength="500"
           ></textarea>
         </div>
         <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
       </form>
 
     </main>

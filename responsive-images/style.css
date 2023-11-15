@@ -49,3 +49,16 @@ h3 {
     flex-direction: row;
   }
 }
+
+/* Practice code added here*/
+/* Practice 1*/
+/*
+img {
+  width: 100%;
+}
+*/
+
+/* Practice 2*/
+main img {
+  width: 100%;
+}

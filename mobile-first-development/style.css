@@ -24,8 +24,26 @@ h3 {
 
 .group {
   display: flex;
+  /* Originally provided in the repo
   flex-direction: row;
+  */
+
+  /*The next line will stacked the elements verticaly*/
+  flex-direction: column;
   margin-bottom: 100px;
+}
+
+/* Groups and items (Desktop) */
+
+@media all and (min-width: 800px) {
+  section,
+  h1 {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
 }
 
 .item {
